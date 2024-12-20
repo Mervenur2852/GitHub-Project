@@ -1,0 +1,51 @@
+.header-links a {
+  text-decoration: none;
+}
+.header {
+  background-color: #24292e;
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  &-logo {
+    i {
+      width: 32px;
+      height: 32px;
+      color: #fff;
+    }
+  }
+  &-search {
+    position: relative;
+    input {
+      background-color: hsla(0, 0%, 100%, 0.125);
+      width: 300px;
+      height: 30px;
+      padding: 7px;
+      font-size: 12px;
+      color: #fff;
+      border: none;
+      margin-right: 16px;
+      border-radius: 3px;
+    }
+    i {
+      position: absolute;
+      right: 25px;
+      top: 8px;
+    }
+  }
+  &-links {
+    a {
+      color: #fff;
+      margin-right: 16px;
+      font-family: "Poppins", serif;
+      font-size: 14px;
+    }
+  }
+  &-rightLinks {
+    margin-left: auto;
+    i {
+      color: #fff;
+      margin-left: 10px;
+    }
+  }
+}
